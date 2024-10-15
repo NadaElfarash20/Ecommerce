@@ -1,0 +1,47 @@
+ .Home{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+overflow: hidden;
+}
+.card-body{
+    align-items: center;
+    border-radius: 5px;
+
+    background-color: rgb(233, 207, 187);
+}
+.card-title{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.card-text{
+    font-size:50px;
+    color: rgb(205, 125, 59);
+    font-weight: 700;
+}
+.card-text2{
+    font-size:50px;
+    color: rgb(205, 125, 59);
+    font-weight: 700;
+    margin-left: 80px;
+}
+
+.btn1 {
+    background-color: #b8860b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn1:hover {
+    background-color: #352e05;
+}
+

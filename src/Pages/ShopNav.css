@@ -1,0 +1,91 @@
+.navdiv {
+    width: 100%; 
+    background-color: yellow; 
+}
+
+.navbar1 {
+    background: #F6EFBD;;
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+}
+.left-icons,
+.right-icons {
+    display: flex;
+
+}
+
+.left-icons {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.right-icons {
+    display: flex;
+  
+}
+
+.span1 {
+    font-size: 15px; 
+}
+
+.notification-container {
+    display: flex;
+   
+    align-items: center;
+}
+
+.filter-item,
+.notification-container {
+    margin-right: 25px; 
+}
+
+.notification-text {
+    margin-right: 5px;
+}
+
+.notification-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+
+    border: 1px solid #ccc;
+}
+
+.notification2-text {
+    margin-right: 8px; 
+}
+
+.notification2-badge {
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+  
+    border: 1px solid #ccc;
+}
+
+.notification-container,
+.notification2-container {
+    margin-right: 50px; 
+}
